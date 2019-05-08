@@ -25,7 +25,10 @@ const WelcomeScreen = (props) => {
 };
 
 WelcomeScreen.propTypes = {
-  parametersGame: PropTypes.object
+  parametersGame: PropTypes.shape({
+    errorCount: PropTypes.string.isRequired,
+    time: PropTypes.string.isRequired
+  }).isRequired
 };
 
 export default WelcomeScreen;
