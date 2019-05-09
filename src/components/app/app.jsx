@@ -1,13 +1,12 @@
 import React from 'react';
 import WelcomeScreen from '../welcome-screen/welcome-screen.jsx';
+import {parametersGame} from './app-mock-data.js';
 
 
-const App = (props) => {
-  const {gameTime, errorCount} = props;
+const App = () => {
 
   return <WelcomeScreen
-    time = {gameTime}
-    errorCount = {errorCount}
+    parametersGame = {parametersGame}
   />;
 };
 

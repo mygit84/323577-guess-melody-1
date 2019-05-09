@@ -1,8 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 
 const WelcomeScreen = (props) => {
-  const {time, errorCount} = props;
+  const {parametersGame: {time, errorCount}} = props;
 
   return (
     <section className="welcome">
@@ -23,5 +24,11 @@ const WelcomeScreen = (props) => {
   );
 };
 
+WelcomeScreen.propTypes = {
+  parametersGame: PropTypes.shape({
+    errorCount: PropTypes.string.isRequired,
+    time: PropTypes.string.isRequired
+  }).isRequired
+};
 
 export default WelcomeScreen;
