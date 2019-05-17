@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-Types';
 
-
 import ArtistGameScreen from '../artist-game-screen/artist-game-screen.jsx';
 import GenreGameScreen from '../genre-game-screen/genre-game-screen.jsx';
 import WelcomeScreen from '../welcome-screen/welcome-screen.jsx';
