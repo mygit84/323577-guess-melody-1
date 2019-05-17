@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const WelcomeScreen = (props) => {
   const {
-    parametersGame: {time, errorCount},
+    parametersGame: {errorCount, time},
     onClick
   } = props;
 
