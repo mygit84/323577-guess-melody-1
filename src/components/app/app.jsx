@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import PropTypes from 'prop-Types';
+import PropTypes from 'prop-types';
 
 
 import GameScreen from '../game-screen/game-screen.jsx';
